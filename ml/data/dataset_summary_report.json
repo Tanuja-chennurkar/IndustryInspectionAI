@@ -1,0 +1,91 @@
+{
+  "total_images": 240,
+  "total_normal": 180,
+  "total_anomaly": 60,
+  "categories": {
+    "candle": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "capsules": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "cashew": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "chewinggum": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "fryum": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "macaroni1": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "macaroni2": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "pcb1": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "pcb2": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "pcb3": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "pcb4": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    },
+    "pipe_fryum": {
+      "total": 20,
+      "normal": 15,
+      "anomaly": 5,
+      "train_samples": 9,
+      "test_samples": 11
+    }
+  }
+}

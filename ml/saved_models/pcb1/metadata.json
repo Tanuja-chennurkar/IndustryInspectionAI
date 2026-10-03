@@ -1,0 +1,26 @@
+{
+  "category": "pcb1",
+  "version": "v1.0.0",
+  "threshold": 0.2904444465637207,
+  "input_shape": [
+    256,
+    256,
+    3
+  ],
+  "weights_file": "model.weights.h5",
+  "training_config": {
+    "epochs": 50,
+    "batch_size": 16,
+    "final_loss": 0.4427455961704254,
+    "normal_mean_loss": 0.1324041783809662,
+    "normal_std_loss": 0.0,
+    "training_time_seconds": 31.274369716644287
+  },
+  "previous_threshold": 0.16240417838096619,
+  "threshold_calibration": {
+    "score": "top_0.1_percent_peak_error",
+    "normal_train_mean": 0.2894444465637207,
+    "normal_train_max": 0.2894444465637207,
+    "margin": 0.001
+  }
+}

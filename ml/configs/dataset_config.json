@@ -1,0 +1,28 @@
+{
+  "dataset_name": "VisA",
+  "dataset_root": "ml/data/VisA",
+  "categories": [
+    "candle",
+    "capsules",
+    "cashew",
+    "chewinggum",
+    "fryum",
+    "macaroni1",
+    "macaroni2",
+    "pcb1",
+    "pcb2",
+    "pcb3",
+    "pcb4",
+    "pipe_fryum"
+  ],
+  "image_size": [256, 256],
+  "color_channels": 3,
+  "normalization_range": [0.0, 1.0],
+  "batch_size": 16,
+  "seed": 42,
+  "official_split_ratios": {
+    "train_normal": 0.6,
+    "test_normal": 0.4,
+    "test_anomaly": 1.0
+  }
+}

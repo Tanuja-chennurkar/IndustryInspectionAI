@@ -1,0 +1,62 @@
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: inspection_mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: industry_inspection_db
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - inspection_network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: inspection_backend
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017
+      MONGODB_DB_NAME: industry_inspection_db
+      PORT: 8000
+      HOST: 0.0.0.0
+    volumes:
+      - ./ml/saved_models:/app/ml/saved_models
+      - static_heatmaps_data:/app/backend/static
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - inspection_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: inspection_frontend
+    restart: always
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - inspection_network
+
+networks:
+  inspection_network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+  saved_models_data:
+  static_heatmaps_data:

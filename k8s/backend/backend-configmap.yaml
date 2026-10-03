@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  labels:
+    app: backend
+data:
+  MONGODB_URI: "mongodb://mongodb-service:27017"
+  MONGODB_DB_NAME: "industry_inspection_db"
+  PORT: "8000"
+  HOST: "0.0.0.0"
+  MODEL_VERSION: "v1.0.0"

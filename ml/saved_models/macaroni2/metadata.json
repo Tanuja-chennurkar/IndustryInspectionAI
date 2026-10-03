@@ -1,0 +1,26 @@
+{
+  "category": "macaroni2",
+  "version": "v1.0.0",
+  "threshold": 0.3455887267589569,
+  "input_shape": [
+    256,
+    256,
+    3
+  ],
+  "weights_file": "model.weights.h5",
+  "training_config": {
+    "epochs": 50,
+    "batch_size": 16,
+    "final_loss": 0.24073845148086548,
+    "normal_mean_loss": 0.11654645949602127,
+    "normal_std_loss": 0.0,
+    "training_time_seconds": 30.226247310638428
+  },
+  "previous_threshold": 0.14654645949602127,
+  "threshold_calibration": {
+    "score": "top_0.1_percent_peak_error",
+    "normal_train_mean": 0.3445887267589569,
+    "normal_train_max": 0.3445887267589569,
+    "margin": 0.001
+  }
+}

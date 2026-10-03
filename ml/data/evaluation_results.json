@@ -1,0 +1,206 @@
+{
+  "overall": {
+    "image_auroc": 0.7639,
+    "pixel_auroc": 0.719,
+    "precision": 0.4545,
+    "recall": 1.0,
+    "f1_score": 0.625,
+    "iou": 0.0056,
+    "dice_f1": 0.0111,
+    "total_test_samples": 132
+  },
+  "per_category": {
+    "candle": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.8932,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0063,
+      "dice_f1": 0.0126,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "capsules": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.6037,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0063,
+      "dice_f1": 0.0126,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "cashew": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.5824,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0058,
+      "dice_f1": 0.0115,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "chewinggum": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.6561,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0068,
+      "dice_f1": 0.0135,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "fryum": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.6157,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0063,
+      "dice_f1": 0.0124,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "macaroni1": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.5892,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0057,
+      "dice_f1": 0.0114,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "macaroni2": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.5993,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0056,
+      "dice_f1": 0.0111,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "pcb1": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.8728,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0039,
+      "dice_f1": 0.0079,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "pcb2": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.8728,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0039,
+      "dice_f1": 0.0079,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "pcb3": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9332,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0067,
+      "dice_f1": 0.0132,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "pcb4": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.8728,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0039,
+      "dice_f1": 0.0079,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    },
+    "pipe_fryum": {
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.5753,
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1_score": 0.625,
+      "iou": 0.0057,
+      "dice_f1": 0.0114,
+      "confusion_matrix": {
+        "TN": 0,
+        "FP": 6,
+        "FN": 0,
+        "TP": 5
+      },
+      "test_samples_count": 11
+    }
+  }
+}

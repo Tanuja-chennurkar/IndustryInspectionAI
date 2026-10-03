@@ -1,0 +1,26 @@
+{
+  "category": "candle",
+  "version": "v1.0.0",
+  "threshold": 0.38861913776397705,
+  "input_shape": [
+    256,
+    256,
+    3
+  ],
+  "weights_file": "model.weights.h5",
+  "training_config": {
+    "epochs": 50,
+    "batch_size": 16,
+    "final_loss": 0.3627423644065857,
+    "normal_mean_loss": 0.29380857944488525,
+    "normal_std_loss": 0.0,
+    "training_time_seconds": 27.706599235534668
+  },
+  "previous_threshold": 0.3238085794448853,
+  "threshold_calibration": {
+    "score": "top_0.1_percent_peak_error",
+    "normal_train_mean": 0.38761913776397705,
+    "normal_train_max": 0.38761913776397705,
+    "margin": 0.001
+  }
+}
